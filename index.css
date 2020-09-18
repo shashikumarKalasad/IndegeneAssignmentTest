@@ -1,0 +1,59 @@
+
+
+.container{
+    display: grid;
+    grid-template-rows: 40px 200px 300px 50px 200px ;
+    grid-gap: 2px;
+    /* background-color: aqua; */
+    height: 900px;
+    width: 940px;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* background-color: chocolate; */
+
+}
+.nav2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr ;
+    grid-gap: 5px;
+}
+.form-inline{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.headerimg{
+    background-color: rgb(168, 160, 175);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: 10px;
+}
+
+.content{
+    background-color: rgba(119, 118, 118, 0.207);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    align-content: center;
+}
+
+.contents{
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+    text-align: center;
+}
+
+.somemsg{
+    background-color: rgb(168, 160, 175);
+    text-align: center;
+}
+.aboutcompany{
+    background-color: rgba(55, 55, 79, 0.09);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
